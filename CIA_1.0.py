@@ -100,7 +100,7 @@ oldAvPartSize   	= 0
 
 #script versions
 pubVersion 			= 1.0
-ScriptVersion 		= 4.75
+Feature_Version 	= 1.0
 CellCounterVersion 	= 2.2
 
 #_______________________________________________________ Method- / Function- area ___________________________________________________________
@@ -1275,7 +1275,7 @@ def saveCountResults(CountDic):
 		results.write("Analysis done by	" + creator + "\n")
 		results.write("Date and time	" + str(ctime.day) + "." + str(ctime.month) + "." + str(ctime.year) + "\t" + str(ctime.hour) + ":" + str(ctime.minute) + ":" + str(ctime.second) + "\n")
 		results.write("Pub version		" + str(pubVersion) + "\n")
-		results.write("Script version	" + str(ScriptVersion) + "\n")
+		results.write("Feature version	" + str(Feature_Version) + "\n")
 		results.write("Cell Counter version	" + str(CellCounterVersion) + "\n")
 		results.write("Modus	" + mode + "\n")
 		#occured errors
@@ -1335,7 +1335,7 @@ def saveCountResults(CountDic):
 		results.write("Analysis done by	" + creator + "\n")
 		results.write("Date and time	" + str(ctime.day) + "." + str(ctime.month) + "." + str(ctime.year) + "\t" + str(ctime.hour) + ":" + str(ctime.minute) + ":" + str(ctime.second) + "\n")
 		results.write("Pub version		" + str(pubVersion) + "\n")
-		results.write("Script version	" + str(ScriptVersion) + "\n")
+		results.write("Feature version	" + str(Feature_Version) + "\n")
 		results.write("Cell Counter version	" + str(CellCounterVersion) + "\n")
 		results.write("Modus	" + mode + "\n")
 		#occured errors
@@ -1402,7 +1402,7 @@ def saveTrainingResults():
 	results.write("Analysis done by 	" + creator + "\n")
 	results.write("Date and time  	" + str(ctime.day) + "." + str(ctime.month) + "." + str(ctime.year) + "\t" + str(ctime.hour) + ":" + str(ctime.minute) + ":" + str(ctime.second) + "\n")
 	results.write("Pub version		" + str(pubVersion) + "\n")
-	results.write("Script version	" + str(ScriptVersion) + "\n")
+	results.write("Feature version	" + str(Feature_Version) + "\n")
 	results.write("Cell Counter version	" + str(CellCounterVersion) + "\n")
 	results.write("Modus	" + mode + "\n")
 	#occured errors
