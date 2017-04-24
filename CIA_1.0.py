@@ -221,7 +221,6 @@ def ParAna(image,table,CountDictionary,filename,imp):
 	calc = IC()
 
 	#cover preprocessed images to give review options
-	#	invertImage(redout)
 	invertImage(redout)
 	#merge redslice and original image for reviewImage
 	reviewImage = calc.run("ADD create RGB", imp, redout)
