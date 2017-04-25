@@ -1935,7 +1935,7 @@ if any_input is not None:
 							####################################################
 
 	#___________________________________ Output functions ___________________________________________					
-			if not(param_search):	
+			if not(param_search) and len(CountDic):	
 				
 				b = datetime.now()
 				finalTime = b-a	
